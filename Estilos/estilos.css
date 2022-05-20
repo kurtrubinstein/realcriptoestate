@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;800&display=swap');
+
+.banner {
+position: relative;
+background-image: url(../Assets/cripto1.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 400px;
+height: 45vh;
+}
+.banner span {
+position: absolute;
+background-color: gold;
+opacity: 20%;
+width: 100%;
+height: 100%;
+display: block;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.tituloIndex {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+
+}
+
+.subtituloBlockchain {
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+@media all and (max-width: 768px) {
+.tituloIndex {
+    font-size: 2rem;
+}
+
+#footer {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+}
+
